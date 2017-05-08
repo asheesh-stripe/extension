@@ -94,7 +94,6 @@ module.exports = function(grunt) {
 
   grunt.registerTask("e2e:remote", [
     'build:all',
-    "protractor:firefox.remote",
     "protractor:chrome.remote"
   ]);
 
